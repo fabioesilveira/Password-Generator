@@ -14,27 +14,27 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword () {
-var passwordlenght=prompt ("Enter your Password lenght")
+var passwordlength=prompt ("Enter your Password length")
 var includelower=confirm("Would you like to include Lowercase letters?")
-var includeuper=confirm("Would you like to include Upercase letters?")
-var includenumbers=confirm("Would tou like to include numbers?")
-var includespecialcaracters=confirm("Would you like to include Special caracters?")
-var choosencaracters=""
-if (includelower == true){
-choosencaracters += "qwertyuiopasdfghjklzxcvbnm"
+var includeupper=confirm("Would you like to include Uppercase letters?")
+var includenumbers=confirm("Would you like to include numbers?")
+var includespecialcharacters=confirm("Would you like to include Special Characters?")
+var choosencharacters=""
+if (includelower === true){
+choosencharacters += "qwertyuiopasdfghjklzxcvbnm"
 }
-if (includeuper == true){
-  choosencaracters += "QWERTYUIOPASDFGHJKLZXCVBNM"
+if (includeupper === true){
+  choosencharacters += "QWERTYUIOPASDFGHJKLZXCVBNM"
 }
-if (includenumbers == true){
-  choosencaracters += "1234567890"
+if (includenumbers === true){
+  choosencharacters += "1234567890"
 }
-if (includespecialcaracters == true){
-  choosencaracters += "!@#$%^&*()_+"
+if (includespecialcharacters === true){
+  choosencharacters += "!@#$%^&*()_+"
 }
 var password=""
-for (i=0;i<passwordlenght;i++){
-password+=choosencaracters.charAt(Math.floor(Math.random()*choosencaracters.length))
+for (i=0;i<passwordlength;i++){
+password+=choosencharacters.charAt(Math.floor(Math.random()*choosencharacters.length))
 }
 return password
 }
