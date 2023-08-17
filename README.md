@@ -1,4 +1,4 @@
-# Password-generated# 03 JavaScript: Password Generator
+# Password-Generator
 
 ## Description
 
@@ -7,10 +7,6 @@ Passwords are crucial for maintaining the privacy and security of personal infor
 ## Usage
 
 Open the website in your browser. Click the Generate Password button and enter your new Password length. After pick the size of your password we will give you the options to include Uppercase and Lowercase Letters, Numbers and Special Characters. The final result is a ramdom passaword generated just for you. This interaction with the website users was created with Javascript.
-
-## Credits
-
-N/A
 
 
 ## Deployed Site
