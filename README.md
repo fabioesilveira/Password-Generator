@@ -13,4 +13,4 @@ Open the website in your browser. Click the Generate Password button and enter y
 
 ![Screenshot of Deployed Website](assets/images/Deployed-site.png)
 
-[Live Demo Link](https://fabioesilveira.github.io/password-generated)
+[Live Demo Link](https://fabioesilveira.github.io/Password-Generator/)
